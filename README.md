@@ -10,10 +10,10 @@ https://youtu.be/-XOdbmpPi7Y
 1. run the DDL.sql file in the sql directory
 1. run the DML.sql file in the sql directory
 1. update the USER_NAME and PASSWORD constant on line 4 and 5 of the a3.py file to match your own username and password for postgres
-1. ensure you have the following libraries installed using pip install <library>
-    -- psycopg2
-    -- tabulate
-    -- datetime
+1. ensure you have the following libraries installed using pip install \<library\>
+    1. psycopg2
+    1. tabulate
+    1. datetime
 1. ensure you have Python 3.12 installed
 1. from the src directory, run the command py a3.py
 
