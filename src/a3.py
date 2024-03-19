@@ -1,6 +1,8 @@
 import psycopg2 as ps
 from tabulate import tabulate
 import datetime
+USER_NAME = ""
+PASSWORD = ""
 
 class Db:
 # Db class runs all the functions that interact with the database
@@ -9,8 +11,8 @@ class Db:
         # initializing db object
         try:
             self.conn = ps.connect(database="COMP-3005-A3",
-                                    user="postgres",
-                                    password="8439",
+                                    user=USER_NAME,
+                                    password=PASSWORD,
                                     host="localhost")
             print("Database connected successfully")
         except:
