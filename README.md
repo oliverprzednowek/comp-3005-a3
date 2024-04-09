@@ -1,9 +1,6 @@
 # Assignment 3 Question 1
 ## Author:
 Oliver Przednowek
-## Video link:
-https://youtu.be/-XOdbmpPi7Y
-
 
 ## Setup instructions:
 1. make a database in pgAdmin 4 titled "COMP-3005-A3"
